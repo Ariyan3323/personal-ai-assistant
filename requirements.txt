@@ -79,10 +79,10 @@ SpeechRecognition==3.10.0
 pyttsx3==2.90
 gTTS==2.4.0
 pygame==2.5.2
-pyaudio==0.2.11
+
 
 # Translation
-googletrans==4.0.0rc1
+deep-translator==1.11.4
 openai==1.3.7
 
 # System Control & Device Management
@@ -106,11 +106,11 @@ playwright==1.40.0
 
 # Machine Learning & AI
 openai-whisper==20231117
-torch-audio==2.1.0
+
 
 # Network & Communication
 websockets==12.0
-socketio==5.10.0
+
 
 # File Format Support
 python-docx==1.1.0
@@ -143,9 +143,17 @@ deep-translator==1.11.4
 polyglot==16.7.4
 
 # Voice Activity Detection
-webrtcvad==2.0.10
-silero-vad==4.0.1
+
+
 
 # Advanced Audio Processing
 noisereduce==3.0.0
 scipy==1.11.4
+
+
+google-generativeai==0.3.0
+
+
+
+pydantic-settings==2.2.1
+

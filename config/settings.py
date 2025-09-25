@@ -4,14 +4,15 @@
 
 import os
 from typing import Optional
-from pydantic import BaseSettings, Field
+from pydantic_settings import BaseSettings
+from pydantic import Field
 
 
 class Settings(BaseSettings):
     """تنظیمات اصلی برنامه"""
     
     # تنظیمات عمومی
-    app_name: str = Field(default="Personal AI Assistant", env="APP_NAME")
+    app_name: str = Field(default="Sam.AI", env="APP_NAME")
     app_version: str = Field(default="1.0.0", env="APP_VERSION")
     debug: bool = Field(default=False, env="DEBUG")
     
